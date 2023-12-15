@@ -1,4 +1,43 @@
-<body data-sveltekit-preload-data="hover" class="light">
+<body
+	data-sveltekit-preload-data="hover"
+	class="dark"
+	style="--primary:#8dcdff;
+--on-primary:#00344f;
+--primary-container:#004b70;
+--on-primary-container:#cae6ff;
+--secondary:#b7c9d9;
+--on-secondary:#22323f;
+--secondary-container:#384956;
+--on-secondary-container:#d3e5f5;
+--tertiary:#cfc0e8;
+--on-tertiary:#362b4b;
+--tertiary-container:#4d4162;
+--on-tertiary-container:#ebddff;
+--error:#ffb4ab;
+--on-error:#690005;
+--error-container:#93000a;
+--on-error-container:#ffb4ab;
+--background:#1a1c1e;
+--on-background:#e2e2e5;
+--surface:#111416;
+--on-surface:#e2e2e5;
+--surface-variant:#41474d;
+--on-surface-variant:#c1c7ce;
+--outline:#8b9198;
+--outline-variant:#41474d;
+--shadow:#000000;
+--scrim:#000000;
+--inverse-surface:#e2e2e5;
+--inverse-on-surface:#2e3133;
+--inverse-primary:#006493;
+--surface-dim:#111416;
+--surface-bright:#37393c;
+--surface-container-lowest:#0c0e11;
+--surface-container-low:#1a1c1e;
+--surface-container:#1e2022;
+--surface-container-high:#282a2d;
+--surface-container-highest:#333537;"
+>
 	<main class="padding">
 		<div style="display: contents"><slot /></div>
 	</main>
